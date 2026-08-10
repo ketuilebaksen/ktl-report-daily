@@ -1,0 +1,28 @@
+{
+  "name": "KTL REPORT",
+  "outro_tag": "NEW VIDEO EVERY DAY",
+  "editorial": "news",
+  "clip_offset": 53,
+
+  "team": "TAKIM_ADI",
+  "nickname": "TAKIM_LAKABI",
+  "league": "NFL",
+  "sport": "football",
+  "venue": "STADYUM_ADI",
+  "sources": "ESPN, NFL.com, Pro Football Talk, The Athletic, Bleacher Report, team beat writers",
+  "hashtags": "#NFL #TAKIM_LAKABI",
+  "roster": [],
+
+  "tts_engine": "google",
+  "google_voice_early": "en-US-Chirp3-HD-Puck",
+  "google_voice_late": "en-US-Chirp3-HD-Puck",
+
+  "hook_cut": 2.8,
+  "body_cut": 3.4,
+  "photo_zoom": 0.08,
+  "overlay_kinds": ["speech", "lower3", "comic", "chat"],
+  "overlay_every_sec": 25,
+  "bounce": true,
+
+  "thumb_engine": "none"
+}
