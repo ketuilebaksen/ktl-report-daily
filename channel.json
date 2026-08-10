@@ -1,21 +1,38 @@
 {
   "name": "KTL REPORT",
-  "outro_tag": "NEW VIDEO EVERY DAY",
+  "outro_tag": "BROWNS NEWS EVERY DAY",
   "editorial": "news",
   "clip_offset": 53,
 
-  "team": "TAKIM_ADI",
-  "nickname": "TAKIM_LAKABI",
+  "team": "Cleveland Browns",
+  "nickname": "Browns",
   "league": "NFL",
   "sport": "football",
-  "venue": "STADYUM_ADI",
-  "sources": "ESPN, NFL.com, Pro Football Talk, The Athletic, Bleacher Report, team beat writers",
-  "hashtags": "#NFL #TAKIM_LAKABI",
-  "roster": [],
+  "venue": "Huntington Bank Field",
+  "sources": "ESPN, NFL.com, Cleveland.com, Dawgs By Nature, Pro Football Talk, The Athletic, Browns Digest",
+  "hashtags": "#Browns #NFL #ClevelandBrowns #DawgPound",
+  "roster": [
+    "Shedeur Sanders", "Deshaun Watson", "Dillon Gabriel",
+    "Quinshon Judkins", "Jerome Ford",
+    "Jerry Jeudy", "Cedric Tillman", "KC Concepcion", "Denzel Boston",
+    "Harold Fannin Jr.", "David Njoku",
+    "Elgton Jenkins", "Tytus Howard", "Zion Johnson", "Teven Jenkins",
+    "Spencer Fano", "Wyatt Teller", "Dawand Jones",
+    "Jared Verse", "Mason Graham", "Dalvin Tomlinson", "Mike Hall Jr.",
+    "Denzel Ward", "Martin Emerson", "Grant Delpit",
+    "Emmanuel McNeil-Warren", "Carson Schwesinger",
+    "Todd Monken", "Andrew Berry", "Jimmy Haslam"
+  ],
 
   "tts_engine": "google",
   "google_voice_early": "en-US-Chirp3-HD-Puck",
   "google_voice_late": "en-US-Chirp3-HD-Puck",
+
+  "palette": {
+    "primary": [255, 60, 0],
+    "secondary": [49, 29, 0],
+    "ink": [16, 10, 4]
+  },
 
   "hook_cut": 2.8,
   "body_cut": 3.4,
