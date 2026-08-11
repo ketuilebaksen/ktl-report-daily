@@ -24,9 +24,8 @@
     "Todd Monken", "Andrew Berry", "Jimmy Haslam"
   ],
 
-  "tts_engine": "google",
-  "google_voice_early": "en-US-Chirp3-HD-Puck",
-  "google_voice_late": "en-US-Chirp3-HD-Puck",
+  "tts_engine": "eleven",
+  "eleven_voice_id": "S9UjcNYIwfBOtZiDnIQT",
 
   "palette": {
     "primary": [255, 60, 0],
