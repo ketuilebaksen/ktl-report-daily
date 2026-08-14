@@ -126,6 +126,55 @@ def punch_phrase(words, max_words=4):
     return " ".join(best).upper(), words[best_i][0]
 
 
+# file names that clearly are not a title
+GENERIC = {"narration", "audio", "ses", "record", "recording", "voice", "final",
+           "output", "sound", "track", "kayit", "kayıt", "new recording", "untitled"}
+
+
+def title_from(src):
+    """The title of the video is the name of the audio file.
+
+    Nothing else to fill in: name the file the way the video should be called,
+    drop it in, done. If the file has a throwaway name (narration.mp3, ses.mp3)
+    we fall back to meta.json, and failing that to the date — the owner writes
+    the real title on YouTube by hand anyway, so this only needs to be a label
+    good enough to tell two downloads apart.
+    """
+    stem = os.path.splitext(os.path.basename(src))[0]
+    stem = re.sub(r"[_]+", " ", stem)
+    stem = re.sub(r"\s+", " ", stem).strip()
+    clean = re.sub(r"[^a-z ]", "", stem.lower()).strip()
+    if clean and clean not in GENERIC and len(stem) > 4:
+        title = stem
+    else:
+        title = ""
+        mp = os.path.join(CUR, "meta.json")
+        if os.path.exists(mp):
+            try:
+                title = (json.load(open(mp)).get("title") or "").strip()
+            except Exception:
+                title = ""
+        if not title or title.lower() in GENERIC:
+            import datetime
+            title = "Video " + datetime.date.today().strftime("%d.%m.%Y")
+
+    # the rest of the pipeline reads meta.json, so keep it in step
+    mp = os.path.join(CUR, "meta.json")
+    meta = {}
+    if os.path.exists(mp):
+        try:
+            meta = json.load(open(mp))
+        except Exception:
+            meta = {}
+    meta["title"] = title
+    meta.setdefault("description", "")
+    meta.setdefault("tags", [])
+    with open(mp, "w") as f:
+        json.dump(meta, f, indent=1, ensure_ascii=False)
+    print(f"[align] title: {title}")
+    return title
+
+
 def main():
     os.makedirs(WORK, exist_ok=True)
     src = find_audio()
@@ -170,13 +219,7 @@ def main():
     with open(os.path.join(WORK, "timings.json"), "w") as f:
         json.dump({"total": total, "items": timings}, f, indent=1)
 
-    meta_path = os.path.join(CUR, "meta.json")
-    title = "Untitled"
-    if os.path.exists(meta_path):
-        try:
-            title = json.load(open(meta_path)).get("title", title)
-        except Exception:
-            pass
+    title = title_from(src)
     script = {"title": title, "sections": sections}
     with open(os.path.join(CUR, "script.json"), "w") as f:
         json.dump(script, f, indent=1, ensure_ascii=False)
