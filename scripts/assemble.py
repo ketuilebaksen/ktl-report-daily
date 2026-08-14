@@ -143,7 +143,13 @@ def photo_segment(img, dur, out, caption=None):
     frames = max(2, round(dur * FPS))
     # slow, professional ken-burns: 1.00 -> 1.08 across the whole segment
     z = f"min(1+{PHOTO_ZOOM}*on/{frames},{1 + PHOTO_ZOOM})"
-    plain = (f"scale=2400:-2:flags=lanczos+accurate_rnd,crop=2400:1350,"
+    # A panoramic photo (a stadium shot, say) scaled to 2400 wide comes out far
+    # shorter than 1350, and cropping to a size larger than the frame is an
+    # ffmpeg error, not a no-op — one such photo used to kill the whole render.
+    # force_original_aspect_ratio=increase guarantees both sides reach the
+    # target first, so the crop always has something to cut from.
+    plain = (f"scale=2400:1350:force_original_aspect_ratio=increase:"
+             f"flags=lanczos+accurate_rnd,crop=2400:1350,"
              f"zoompan=z='{z}':d={frames}:x='iw/2-(iw/zoom/2)':y='ih/2-(ih/zoom/2)'"
              f":s=1920x1080:fps={FPS},format=yuv420p")
     vf = plain
@@ -400,9 +406,15 @@ def main():
                 if photo and remaining > 5.5:
                     pd = min(6.0, remaining * 0.5)
                     pp = os.path.join(seg_dir, f"b_{i:04d}_photo.mp4")
-                    photo_segment(photo, pd, pp, caption=cap)
-                    parts.append(pp)
-                    remaining -= pd
+                    try:
+                        photo_segment(photo, pd, pp, caption=cap)
+                        parts.append(pp)
+                        remaining -= pd
+                    except Exception as e:
+                        # a single unusable photo must never cost the video —
+                        # give the time back to the b-roll and carry on
+                        print(f"[assemble] photo skipped "
+                              f"({os.path.basename(photo)}: {e})", flush=True)
                 ncuts = max(1, round(remaining / BODY_CUT))
                 cd = remaining / ncuts
                 for k in range(ncuts):
