@@ -96,9 +96,30 @@ jobs:
           TAG="video-$(date -u +%Y%m%d-%H%M)"
           T=$(python3 -c "import json;print(json.load(open('content/current/meta.json'))['title'][:90])")
           SIZE=$(du -h work/final.mp4 | cut -f1)
-          gh release create "$TAG" work/final.mp4 \
+
+          # GitHub tek bir dosyada 2 GB'dan fazlasini kabul etmiyor. Uzun bir
+          # video bu siniri asinca bir bucuk saatlik render cope gidiyordu.
+          # Simdi buyuk dosya parcalara bolunuyor; parcalar ayni kalitede,
+          # yeniden kodlama yok, sadece kesiliyor.
+          SIZE_B=$(stat -c%s work/final.mp4)
+          TARGET=1600000000
+          NOTE=""
+          FILES="work/final.mp4"
+          if [ "$SIZE_B" -gt "$TARGET" ]; then
+            DUR=$(ffprobe -v error -show_entries format=duration -of csv=p=0 work/final.mp4)
+            PARTS=$(( SIZE_B / TARGET + 1 ))
+            SEG=$(python3 -c "print(max(60,int(float('$DUR')/$PARTS)+1))")
+            echo "video $SIZE, tek parca yuklenemez -> $PARTS parcaya bolunuyor"
+            ffmpeg -y -v error -i work/final.mp4 -c copy -map 0 \
+                   -f segment -segment_time "$SEG" -reset_timestamps 1 \
+                   "work/bolum_%02d.mp4"
+            FILES=$(ls work/bolum_*.mp4 | tr '\n' ' ')
+            NOTE=" Video $PARTS parca halinde: bolum_00, bolum_01 ... sirayla indir."
+          fi
+
+          gh release create "$TAG" $FILES \
             -R "$GITHUB_REPOSITORY" -t "$T" \
-            -n "Hazir video ($SIZE). Asagidaki final.mp4 dosyasina tiklayip indir."
+            -n "Hazir video ($SIZE).$NOTE Asagidaki dosyalara tiklayip indir."
           URL="https://github.com/$GITHUB_REPOSITORY/releases/tag/$TAG"
           echo "url=$URL" >> $GITHUB_OUTPUT
           {
