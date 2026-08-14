@@ -40,9 +40,15 @@ try:
     CLIP_OFFSET = int(CH.get("clip_offset", 37))
     BOUNCE = bool(CH.get("bounce", True))
     PHOTO_ZOOM = float(CH.get("photo_zoom", 0.08))
+    BRAND = CH.get("name", "NY KNICKS DAILY")
 except Exception as _e:
     print(f"[assemble] channel config default ({_e})")
     OVERLAY_EVERY, CLIP_OFFSET, BOUNCE, PHOTO_ZOOM = 25.0, 37, True, 0.08
+    BRAND = "NY KNICKS DAILY"
+
+# The branded opener runs silent, so the video starts with a few seconds of
+# nobody talking. Set INTRO=0 and the video opens on the first spoken word.
+INTRO_ON = os.environ.get("INTRO", "1") != "0"
 
 def run(cmd):
     subprocess.run(cmd, check=True)
@@ -262,13 +268,16 @@ def photo_lookup(photos):
 def make_intro(broll, seg_dir):
     """Fast branded opener: 2 flash cuts + title card. Returns (files, duration)."""
     files, d_total = [], 0.0
+    if not INTRO_ON:
+        print("[assemble] intro off — video ilk soylenen kelimeyle basliyor")
+        return files, d_total
     if broll.any():
         for k in range(2):
             p = os.path.join(seg_dir, f"intro_cut{k}.mp4")
             if not (os.path.exists(p) and os.path.getsize(p) > 5000):
                 src, start = broll.pick(1.1)
                 broll_cut(src, start, 1.1, p,
-                          big_word="NY KNICKS DAILY" if k == 1 else None, flash=True)
+                          big_word=BRAND if k == 1 else None, flash=True)
             files.append(p)
             d_total += 1.1
     card = os.path.join(BASE, "work", "intro.jpg")
