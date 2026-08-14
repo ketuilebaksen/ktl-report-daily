@@ -40,6 +40,13 @@ FILLER = {"um", "uh", "yeah", "okay", "ok", "like", "know", "mean", "kind",
 
 
 def find_audio():
+    # a queued render names the file it is responsible for; otherwise take
+    # whatever the owner dropped into content/current
+    pick = os.environ.get("AUDIO_FILE", "").strip()
+    if pick:
+        if not os.path.exists(pick):
+            sys.exit(f"[align] AUDIO_FILE set to {pick} but that file is not there")
+        return pick
     for f in sorted(os.listdir(CUR)):
         if f.lower().endswith(tuple(e.lower() for e in AUDIO_EXT)):
             return os.path.join(CUR, f)
