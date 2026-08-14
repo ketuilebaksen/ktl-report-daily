@@ -42,12 +42,26 @@ jobs:
           mkdir -p assets/voice
           curl -sL https://github.com/rhasspy/piper/releases/download/v0.0.2/voice-en-us-ryan-high.tar.gz | tar xz -C assets/voice/
 
-      - name: TTS
+      - name: Narration (own recording, else text-to-speech)
         env:
           GOOGLE_TTS_KEY: ${{ secrets.GOOGLE_TTS_KEY }}
           ELEVEN_API_KEY: ${{ secrets.ELEVEN_API_KEY }}
           ELEVEN_MODEL: ${{ vars.ELEVEN_MODEL || 'eleven_flash_v2_5' }}
-        run: python3 scripts/tts.py content/current/script.json
+          WHISPER_MODEL: ${{ vars.WHISPER_MODEL || 'small' }}
+          PUNCH_EVERY: ${{ vars.PUNCH_EVERY || '4' }}
+        run: |
+          # An audio file in content/current means the owner recorded (or
+          # generated) the narration themselves. Then we do not synthesise
+          # anything — we listen to that file and cut the video to it.
+          if ls content/current/*.mp3 content/current/*.wav \
+                content/current/*.m4a content/current/*.aac 2>/dev/null | head -1 | grep -q .; then
+            echo "audio found -> aligning to the recording"
+            pip install -q faster-whisper
+            python3 scripts/align.py
+          else
+            echo "no audio -> synthesising from script.json"
+            python3 scripts/tts.py content/current/script.json
+          fi
 
       - name: Download media libraries
         env:
