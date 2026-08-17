@@ -93,10 +93,12 @@ jobs:
           MEDIA_REPO: ${{ vars.MEDIA_REPO || github.repository }}
           MUSIC_REPO: ${{ vars.MUSIC_REPO || github.repository }}
         run: |
-          mkdir -p work/broll work/music work/photos
+          mkdir -p work/broll work/music work/photos work/ambient
           gh release download broll -R "$MEDIA_REPO" -D work/broll || echo "no b-roll release"
           gh release download music -R "$MUSIC_REPO" -D work/music || echo "no music release"
           gh release download photos -R "$MEDIA_REPO" -D work/photos || echo "no photos release"
+          # stadyum ugultusu / ortam sesi — opsiyonel, yoksa video sessiz zeminde kalir
+          gh release download ambient -R "$MEDIA_REPO" -D work/ambient || echo "no ambient release"
           python3 scripts/photos.py content/current/script.json || echo "auto photos skipped"
 
       - name: Visuals
