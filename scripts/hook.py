@@ -24,8 +24,9 @@ Env:
   HOOK_PAGES      how many pages fly through (default 5)
   HOOK_PAGES_SEC  how long the page burst runs (default 6.5)
   HOOK_MAX        opener length cap in seconds (default 9)
+  REMOTION        "0" forces the ffmpeg pages even when Remotion is installed
 """
-import os, random, re, subprocess
+import json, os, random, re, subprocess
 
 BASE = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 A = os.path.join(BASE, "assets")
@@ -124,6 +125,65 @@ def page_png(text, out, idx=0, palette=None):
     return out, card.size
 
 
+REMOTION_ON = os.environ.get("REMOTION", "1") != "0"
+
+
+def _beats(n, dur, hold=1.25):
+    """When each page lands. Shared by both renderers so the two look alike."""
+    step = max(0.5, (dur - hold) / max(1, n))
+    return [round(0.3 + i * step, 3) for i in range(n)]
+
+
+def _remotion_pages(base_clip, texts, dur, out, palette, crf, preset, fps):
+    """Render the pages in Remotion and composite them over the footage.
+
+    Remotion gives the cards real motion — they overshoot, settle and leave
+    at an angle — which ffmpeg's overlay filter cannot express. It is slow
+    (a browser draws every frame), so only these few seconds go through it.
+    Raises on any problem; the caller falls back to the ffmpeg pages.
+    """
+    root = os.path.join(BASE, "remotion")
+    if not os.path.isdir(os.path.join(root, "node_modules", "remotion")):
+        raise RuntimeError("remotion is not installed")
+
+    work = os.path.join(BASE, "work", "hook")
+    os.makedirs(work, exist_ok=True)
+    pal = palette or {}
+    props = {
+        "pages": [{"text": t, "at": at}
+                  for t, at in zip(texts, _beats(len(texts), dur))],
+        "accent": list(pal.get("primary", (245, 132, 38))),
+    }
+    props_path = os.path.join(work, "props.json")
+    with open(props_path, "w") as f:
+        json.dump(props, f, ensure_ascii=False)
+
+    overlay = os.path.join(work, "overlay.webm")
+    frames = max(2, int(round(dur * fps))) - 1
+    cmd = ["npx", "remotion", "render", "HookPages", overlay,
+           f"--props={props_path}", f"--frames=0-{frames}",
+           "--concurrency=2", "--log=error"]
+    chrome = os.environ.get("REMOTION_CHROME", "")
+    if chrome:
+        cmd.append(f"--browser-executable={chrome}")
+    print(f"[hook] remotion rendering {frames + 1} frames …", flush=True)
+    subprocess.run(cmd, cwd=root, check=True)
+
+    # -c:v libvpx before the overlay input: without it ffmpeg decodes the
+    # WebM without its alpha plane and the card arrives as an opaque block
+    subprocess.run(
+        ["ffmpeg", "-y", "-v", "error", "-i", base_clip,
+         "-c:v", "libvpx", "-i", overlay,
+         "-filter_complex",
+         f"[0:v]scale={W}:{H},fps={fps}[b];"
+         f"[b][1:v]overlay=0:0:format=auto,format=yuv420p",
+         "-t", f"{dur:.3f}", "-r", str(fps),
+         "-c:v", "libx264", "-preset", preset, "-crf", crf,
+         "-pix_fmt", "yuv420p", "-an", out], check=True)
+    print("[hook] opener pages: remotion", flush=True)
+    return out
+
+
 def vox_pages(base_clip, texts, dur, out, palette=None, crf="20", preset="fast",
               fps=24):
     """Fly `texts` across `base_clip` as pages. Returns `out`."""
@@ -142,6 +202,14 @@ def vox_pages(base_clip, texts, dur, out, palette=None, crf="20", preset="fast",
     except Exception:
         pass
 
+    if REMOTION_ON:
+        try:
+            return _remotion_pages(base_clip, texts, dur, out, palette,
+                                   crf, preset, fps)
+        except Exception as e:
+            print(f"[hook] remotion pages unavailable ({e}) — ffmpeg pages",
+                  flush=True)
+
     rnd = random.Random(len(texts) * 977 + int(dur * 10))
     pages = []
     for i, t in enumerate(texts):
@@ -151,7 +219,7 @@ def vox_pages(base_clip, texts, dur, out, palette=None, crf="20", preset="fast",
 
     # Beats: pages overlap by design — one is still leaving as the next lands.
     hold = 1.15
-    step = max(0.5, (dur - hold) / max(1, len(pages)))
+    beats = _beats(len(pages), dur)
     inputs, chains, last = [], [], "[base]"
     inputs += ["-i", base_clip]
     for i, (p, _s) in enumerate(pages):
@@ -159,7 +227,7 @@ def vox_pages(base_clip, texts, dur, out, palette=None, crf="20", preset="fast",
 
     chains.append(f"[0:v]scale={W}:{H},fps={fps},format=rgba[base]")
     for i, (p, (pw, ph)) in enumerate(pages):
-        t0 = round(0.25 + i * step, 3)
+        t0 = beats[i]
         t1 = round(t0 + hold, 3)
         side = -1 if i % 2 == 0 else 1
         # land on a lane, not dead centre, so two pages can share the screen

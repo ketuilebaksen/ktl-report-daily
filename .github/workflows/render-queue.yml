@@ -58,6 +58,26 @@ jobs:
           sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg
           pip install -q Pillow numpy pydub rembg onnxruntime opencv-python-headless faster-whisper
 
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+
+      - name: Hareketli grafikler (Remotion)
+        continue-on-error: true
+        run: |
+          # Remotion sadece açılıştaki grafikleri üretiyor; kurulamazsa video
+          # yine çıkar, sayfalar eski ffmpeg yöntemiyle çizilir.
+          if [ -f scripts/remotion_setup.py ]; then
+            python3 scripts/remotion_setup.py
+            if [ -x /usr/bin/google-chrome ]; then
+              echo "REMOTION_CHROME=/usr/bin/google-chrome" >> $GITHUB_ENV
+            else
+              (cd remotion && npx --yes remotion browser ensure) || true
+            fi
+          else
+            echo "remotion_setup.py yok — grafikler ffmpeg ile cizilecek"
+          fi
+
       - name: Sesi çöz ve kurguyu ona göre kes
         env:
           AUDIO_FILE: ${{ matrix.item.path }}
