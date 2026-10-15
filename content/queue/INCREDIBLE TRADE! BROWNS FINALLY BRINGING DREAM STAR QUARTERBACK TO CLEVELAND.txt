@@ -1,0 +1,221 @@
+The diagnosis. Four tests on Cleveland's run game, and the one number that clears Quinshon Judkins.
+
+The presenting symptom.
+
+Cleveland lost seventeen to twelve to the New York Jets with 198 total yards, the lowest output of its season. Deshaun Watson was sacked eight times. The Browns scored 12 points against a one and three team playing without its best offensive weapon.
+
+Everybody has a theory: the quarterback, the line, the play-caller, the running back.
+
+So this week at Ktl Report we do it properly, not with opinions but the way a doctor would. Run the tests, read the results, name the diagnosis, then talk treatment. Every number below comes from ESPN's charting of Cleveland's run game through five weeks, and one of them clears a player who has spent two weeks being blamed.
+
+Then, at the end, the other story: the suggestion that Cleveland should go get Cam Ward.
+
+Test one. Is it the running back?
+
+Start where the blame has landed, and make the case against him honestly.
+
+Quinshon Judkins leads Cleveland with 221 rushing yards. He is averaging three point oh yards per carry, which ranks 39th out of 41 qualified running backs in the NFL. Only MarShawn Lloyd of the Packers and David Montgomery sit below him.
+
+On its face that is damning. A second-round pick, the lead back, a bottom-three average. Case closed, right?
+
+Now the test that actually matters, and it is the single most important number in this entire article.
+
+Judkins is averaging one point one four yards before first contact per rushing attempt, the lowest mark of all 41 qualified running backs in football.
+
+Read that again. Not bottom five. Last. The second-lowest, Ashton Jeanty of the Raiders, is at one point two three. Judkins is being hit, on average, roughly a yard past the handoff.
+
+Result: negative. A running back cannot create yards that do not exist. Three yards a carry when you are contacted at one point one four means he is actually gaining about one point nine yards after contact on every single rush, which is not the profile of a back who is failing. It is the profile of a back being asked to make something from nothing, every time.
+
+Whatever is wrong in Cleveland, it is not the man carrying the football.
+
+Test two. Is it the offensive line?
+
+If the back is being hit a yard past the mesh point, somebody is letting defenders through. So test the line.
+
+Cleveland ranks 26th in ESPN's run block win rate at seventy-one point one percent. On first down specifically, the Browns average three point five yards a carry, 25th in the league.
+
+And the personnel context is brutal. Teven Jenkins has missed every game since Week 1 with a back injury. Tytus Howard left the Jets game in the first quarter with a knee injury and did not practice Wednesday. Elgton Jenkins was playing his first game back from concussion protocol. Two of the five rookies and young players on that line, Spencer Fano and Austin Barber, are in their first professional season.
+
+Result: positive, substantially. The run blocking is bottom-quarter in the league by the metric designed to measure exactly this, and the unit has not had its intended five starters together for a single full game.
+
+But a 26th-ranked line does not fully explain being last in yards before contact. Something else is adding to it. So we keep testing.
+
+Test three. Is it the formation? And here is the finding.
+
+This is the result nobody is discussing, and it is the most revealing one in the workup.
+
+seventy-six point two percent of Cleveland's offensive plays come from shotgun, the highest rate in the NFL.
+
+sixty-five point seven percent of the Browns' designed runs also come from shotgun, again, the highest rate in the NFL.
+
+And the number that completes the picture: Cleveland has attempted only 30 designed running back runs from under center all season, the fewest in the league, and those plays have produced a league-low one point nine yards per carry.
+
+So the Browns run from shotgun more than any team in football, and on the rare occasions they line up under center, it goes worse than it does for anyone else.
+
+Result: positive, and this is the one that ties the whole chart together.
+
+Why that number explains the one point one four.
+
+Here is the mechanics, in plain language, because this is where the diagnosis actually gets made.
+
+When a quarterback is under center and turns his back to hand off, the back is already moving downhill with a running start, the mesh point is deep enough to disguise direction, and play-action genuinely threatens the defense because the quarterback's body is doing what it does on a real handoff.
+
+From shotgun almost all of that disappears. The back starts beside the quarterback rather than behind him, so his path is flatter and his first steps lateral. The defense reads the backfield alignment and knows the range of possible runs pre-snap. The mesh point is in plain view. And with no traditional play-action threat to honor, the safeties sit.
+
+Now add the first fact back in: Judkins is contacted at one point one four yards. Of course he is. From shotgun, behind a line ranked 26th in run blocking, against a defense that already knows what is coming, the hole closes before he has finished turning upfield.
+
+That is the diagnosis. Not a bad running back. A run game whose geometry gives him nothing, run from the one formation that reduces his head start, more often than any team in the league.
+
+And Monken's own explanation is honest.
+
+To his credit, the head coach, and he is the head coach, not the offensive coordinator, which the transcripts keep getting wrong, addressed this directly and did not hide behind it.
+
+Monken explained that Cleveland had used under-center formations against Tampa Bay, then switched to shotgun after facing pressure, and found some success with the adjustment. His caution was that the team has to stay flexible and avoid becoming predictable.
+
+That is honest, and it contains the real tension. The shift to shotgun was a protection decision, eyes up, shorter drop, ball out against pressure. It worked for the passing game, and Cleveland won three in a row doing it.
+
+But a protection fix became a run-game tax: the league's highest shotgun rate and the league's worst yards-before-contact for its lead back. And Monken's own concern, don't become predictable, is exactly the number. Seventy-six percent of plays from one formation is the definition of a tendency.
+
+On Monday he put the blame for the run game on "scheming it, playing it, coaching it." The chart agrees with him.
+
+The chain reaction, stated once.
+
+Now connect every number into one sentence, because this is how a 198-yard afternoon actually happens.
+
+three point five yards per carry on first down (25th) → you face second-and-long → you fail to convert → you average 9 yards to go on third down, the sixth-longest distance in the NFL → third-and-nine is an obvious passing down → the defense pins its ears back and rushes five → eight sacks → drives die → 198 total yards and 12 points.
+
+Every link in that chain is upstream of the quarterback. Watson's share of this is real but it arrives at the end of the chain, not the beginning. You do not fix third-and-nine with a better throw. You fix it by not being in third-and-nine.
+
+Test four. Who is actually running the ball?
+
+One more result, and it is the quietest alarm on the chart.
+
+Deshaun Watson has 167 rushing yards, more than a third of Cleveland's entire rushing production.
+
+A 31-year-old quarterback in the final year of his contract is the Browns' second-most-productive runner, and a meaningful share of those yards are scrambles, which are failed pass plays with a good outcome rather than a plan.
+
+That is not sustainable, it is not repeatable, and it is how quarterbacks get hurt. When a third of your ground game is your quarterback improvising, you do not have a run game. You have a quarterback compensating for the absence of one.
+
+The control group. Weeks three and four.
+
+Every diagnosis needs a control, and Cleveland provides its own.
+
+This run game is not incapable. In Weeks 3 and 4, against Carolina and Pittsburgh, the Browns rushed for more than 100 yards in consecutive games. That is not elite, but it is functional, enough to stay on schedule, enough to make play-action mean something, enough to win two games in the fourth quarter.
+
+Then came the Jets: 96 rushing yards, with Watson contributing 40 of them and Judkins 44.
+
+So what changed? Three things, and all three are environmental rather than personnel.
+
+The weather. A wet ball compresses playbooks and makes ball security the priority. It should, in theory, push a team toward more running, not less, but it also makes pulling linemen and tight-angle blocks harder on bad footing.
+
+The opponent's plan. Monken said it himself: the Jets had been playing a lot of shell coverage and switched to more man and more aggression. Aggressive man coverage lets a defense commit extra bodies near the line.
+
+The line. Tytus Howard left in the first quarter. Elgton Jenkins was in his first game back from protocol. Teven Jenkins was out, again.
+
+Result: the capability is real and conditional. This is not a run game that cannot work, it is one with no margin. Take away one tackle and add an aggressive front and it collapses to 96 yards. That is the definition of a unit operating without depth.
+
+And the comparable. What Monken's run game was built with.
+
+One more piece of context, offered fairly, because the criticism of Monken deserves precision rather than volume.
+
+His reputation as an offensive mind was built in two places. At Georgia he ran an offense that won at the highest level of college football. With the Baltimore Ravens, he coordinated an offense featuring Lamar Jackson and Derrick Henry.
+
+Now look honestly at what those two situations had that Cleveland does not. Jackson is a quarterback whose legs are a designed, schemed threat on every snap, defenses must account for him as a runner before the ball is handed off, which is what truly lightens a box. Henry is a generational power back who creates yards after contact at a volume almost nobody in NFL history has matched. Georgia had recruiting advantages at every position on the line.
+
+Cleveland has Quinshon Judkins, a promising second-year back being hit at one point one four yards, behind a line ranked 26th in run blocking, with a 31-year-old quarterback whose rushing yards come mostly from scrambling rather than design.
+
+This is not an excuse for Monken, it is the actual test of him. Any coordinator can run the ball with Derrick Henry. The job in Cleveland is to build a run game out of ordinary parts, and five weeks in, the chart says he has not solved it. He said as much himself: "If I knew that, we'd have it fixed."
+
+The encouraging part is that he is looking at the same numbers. The concerning part is that the fix, more under-center work, heavier sets, less predictability, costs protection, and protection is the thing that made him go to shotgun in the first place.
+
+The treatment plan.
+
+A diagnosis without a prescription is just complaining, so here is what actually addresses the findings.
+
+One: more under-center play-action, even at a protection cost. Cleveland cannot keep running from shotgun sixty-five point seven percent of the time and expect different results. The one point nine yards per carry from under center is not an argument against it, that is a tiny sample of 30 carries, almost certainly in obvious short-yardage and goal-line situations where defenses are stacked. Run it on first and second down in normal situations and the number changes.
+
+Two: condensed formations and heavier personnel. You cannot block a light box that is not light. Make defenses add bodies to the formation before the snap.
+
+Three: health, and the two clocks. Dylan Sampson's twenty-one day practice window opened Wednesday after four games on injured reserve, and Monken said of a return, "I think there's a chance." Audric Estime was signed off Minnesota's practice squad. Raheim Sanders went on injured reserve with a hip injury. The room is being rebuilt in real time, and a fresh back behind the same blocking will tell you whether the blocking was the problem.
+
+Four, the one we would actually do: lean into what already works. Against Pittsburgh, Judkins caught six passes on seven targets, a career high, and Monken described him and Harold Fannin Junior as players who turn a four yard check-down into eight or nine. If you cannot hand it to him for three, throw it to him for seven. That is a run game by other means, and Cleveland already has it.
+
+The view from inside the line.
+
+Left guard Zion Johnson offered the optimistic version this week: there were plays where the offense was one detail away from the result it wanted, and he believes better execution and attention to detail get them there.
+
+We want to take that seriously rather than wave it off, because linemen usually know. "One detail away" is a real thing in run blocking, a track a half-step off, a climb to the second level a beat late, a double team that breaks too early. Those are fixable within a week.
+
+But we are also going to be honest: 26th in run block win rate is not a detail. It is a pattern across five games. Johnson is describing individual plays; the chart is describing a season. Both can be true, and only one of them gets fixed by Sunday.
+
+And now the second story. The Cam Ward idea.
+
+Separately, a conversation about 2027 has started, and it needs labeling before it travels.
+
+On 92.3 The Fan, Ken Carman raised the idea of Cleveland pursuing Cam Ward, asking "You're not getting Deshaun Watson back after this year, right?" and whether the Browns would want to "kick the tires" on the Titans quarterback.
+
+Let's be precise about what that is: a radio host asking a question in October. It is not a report. Nobody has reported that Cleveland has interest, that Tennessee would move him, or that any conversation has occurred. Carman himself framed it as a question somebody had to raise.
+
+The facts on Ward: Tennessee took him first overall in 2025, and he is three and nineteen in his first 22 starts. The defense of him is that Tennessee's offensive line and weapons have been poor and a quarterback's development depends on his circumstances.
+
+And here is the irony nobody noticed.
+
+Read those two stories back to back, because they are the same argument pointed in opposite directions.
+
+The Cam Ward pitch says: his record is bad, but look at his line and his weapons, judge the circumstances, not the quarterback.
+
+The Cleveland diagnosis above says: our numbers are bad, but look at our line and our run blocking and our formation tendencies, judge the circumstances, not the quarterback.
+
+Both arguments are reasonable. They cannot both be acted on at once. If Cleveland believes a quarterback's production is mostly a function of his surroundings, then the answer is to fix the surroundings, not to import another quarterback into the same ones. A team ranked 26th in run blocking that trades assets for a three and nineteen passer has simply moved the problem to a new face.
+
+And that is before the cost. Acquiring a former first overall pick is not free, and Cleveland would be spending draft capital it has specifically accumulated, two first-round picks in 2027 from the Myles Garrett trade, on the position where it already has four players under contract.
+
+What Cabot actually reported about Watson.
+
+For the record, since the names keep getting mangled: Mary Kay Cabot of cleveland.com, not "Kitt", has laid out three live possibilities for Watson, who is in the final year of his deal.
+
+Cleveland could let him walk. It could sign him to a short-term bridge deal. Or it could give him another multi-year contract. Her read is that if Watson plays well enough to lead this team to the playoffs, the Browns would have real reason to try to re-sign or extend him.
+
+She also noted the thing most people have forgotten: when Andrew Berry, Berry, not "Barry", traded for Watson, the organizational hope was a ten-year arrangement. And Watson is 31, which is not old for a quarterback.
+
+So the honest state of the 2027 question is: undecided, and deliberately so. Cleveland is three and two with twelve games left and has given itself every option. That is not indecision. That is what optionality looks like before you have the information.
+
+Where we stop.
+
+"Judkins is the problem." He is last among 41 qualified backs in yards before contact. He is gaining roughly one point nine yards after contact on every carry. That is the opposite of a problem.
+
+"The Browns should trade for Cam Ward." A radio host asked a question. No report exists, from anybody, on either side.
+
+"Watson is gone." Cabot lists three outcomes including a multi-year extension, and the season has twelve games left.
+
+"Just stop using shotgun." We are arguing for more under-center work, not an abandonment. The one point nine-yard under-center average comes from 30 carries, likely in the hardest situations on the field.
+
+Any timeline on Judkins, Schwesinger, Graham, Collins or Howard. Monken: "We're not going to rule anybody in or out today."
+
+"Monken is the offensive coordinator." Head coach. Eighth or ninth time we have fixed this.
+
+Baltimore, Sunday.
+
+The Ravens visit Huntington Bank Field on October 18, with Lamar Jackson's sprained ankle still an open question after he missed Week 5 and Tyler Huntley started.
+
+Watch the formation chart more than the box score. If Cleveland lines up under center on first down in the first quarter, the staff read the same numbers we did. If it is 76 percent shotgun again, then Monken's warning about predictability was a diagnosis he has not yet treated.
+
+Also watch whether Judkins plays at all, he did not practice Wednesday, and whether Cleveland elevates Jaret Patterson or Audric Estime behind him.
+
+The bottom line.
+
+Four tests, one diagnosis.
+
+It is not the running back: Quinshon Judkins is being hit one point one four yards past the handoff, the worst mark of any qualified back in the NFL, and is still grinding out nearly two yards after contact every time he touches it.
+
+It is partly the line: 26th in run block win rate, with a starting guard missing all season and a tackle who left Sunday's game in the first quarter.
+
+And it is substantially the design: the highest shotgun rate in football, on plays and on runs, with the fewest under-center carries in the league. That geometry hands the defense the answer before the snap.
+
+Those three findings produce one chain, three point five yards on first down, nine yards to go on third, eight sacks, 198 total yards, and the chain ends at the quarterback rather than starting there.
+
+Cleveland does not need a new quarterback to fix this. It needs a first down on first down.
+
+So here's our question for you: does the one point one four number change your mind about Judkins, and would you rather see Cleveland fix the run game under center, or just throw it to the backs and call that the run game? Drop it in the comments. We read every one.
+
+KTL REPORT, where the pulse of the Browns beats.
