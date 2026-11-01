@@ -1,0 +1,200 @@
+Forty-five percent. Where that number came from, what a prediction market actually measures, and the honest odds on a Shedeur trade.
+
+First, the title, and what is actually happening today.
+
+The title is "Big Blow! Todd Monken Faces Huge QB Decisions Before Steelers Game!"
+
+Todd Monken appears in this video for roughly zero seconds. The content is a Miami-versus-Philadelphia race for Shedeur Sanders, with two radio clips about the Dolphins spliced in. If you promise Monken and deliver Polymarket, the viewer who clicked for one leaves before the other.
+
+And the thing the title gestures at is real but already settled: Monken's quarterback decisions for this game were made on Friday. Dillon Gabriel is inactive. Shedeur Sanders is the active backup. Tony Grossi of cleveland.com reported it at one thirty-three in the afternoon on October thirtieth.
+
+Meanwhile, as we write, Cleveland is at Pittsburgh with first place in the AFC North on the table, both teams five and two, and Pittsburgh favored. The result is not in hand yet, so nothing below is a reaction to it.
+
+Now to the number, because the number is the interesting part. Forty-five percent is a quantitative claim. Quantitative claims can be audited. So we are going to audit it, find out where it came from, explain what it actually measures, and then build an honest figure of our own, which is what we try to do with every number at Ktl Report.
+
+But first, the error that should stop the video at second one.
+
+The opening line, repeated verbatim at the ten-minute mark, is: "The Miami Dolphins are one of the favorites to trade for Browns Pro Bowl quarterback Shedeur Sanders."
+
+Shedeur Sanders has never been to a Pro Bowl. He is a second-year quarterback, the one hundred forty-fourth pick of the twenty twenty-five draft, twenty-four years old, on an inexpensive rookie contract through twenty twenty-eight, who has not taken a meaningful snap in twenty twenty-six.
+
+That is not a slip of the tongue, because it is said twice, and it is not harmless. It inflates the asset at the exact moment the video is trying to argue about his trade value. A Pro Bowl quarterback is not available for a fifth-round pick. The fact that the same script argues both things in the same breath is the tell.
+
+Where the forty-five percent actually came from.
+
+The video presents the number like this: "Polymarket has suggested there is a forty-five percent chance that Shedeur ends up getting traded. That is not a rumor floating around on social media. That is real money from real people saying this is almost a coin flip."
+
+Here is the actual chain of custody, and it is short.
+
+Link one: an account on X called MLFootball posted that Miami is "one of the FAVORITES" to trade for Sanders, citing Polymarket's forty-five percent.
+
+Link two: content sites wrote that up. The write-up we read states plainly that it is attributing the figure to MLFootball's citation and does not verify it itself.
+
+Link three: this video converts that into "several reports now say Miami is ahead in the negotiations," and then into "they are reportedly pushing. They are negotiating."
+
+Read the two ends of that chain together. It begins with a social-media aggregator quoting a betting market. It ends with the assertion that two front offices are in negotiations. No reporter, anywhere, has reported a negotiation between Cleveland and Miami. Not Schefter, not Rapoport, not Cabot, not Grossi, not Fowler.
+
+And note the irony in the video's own framing: "that is not a rumor floating around on social media." It is, almost exactly, a rumor floating around on social media, with a percentage attached.
+
+What a prediction market actually measures.
+
+This part matters beyond the Browns, so let us be precise rather than dismissive. Prediction markets are genuinely useful. They are not reporting, and they are not evidence of a negotiation.
+
+What they measure: the aggregate opinion of the people choosing to trade that specific contract, weighted by how much they are willing to risk.
+
+What they do not measure: whether anybody with information is among those people.
+
+And here is the part that should end the "real money" argument: the market is reflexive. Where do the traders get their information? From reports, from podcasts, from X accounts, from videos like this one. When a rumor spreads, the price moves. Then the moved price is quoted as independent confirmation of the rumor. That is a loop, not a check. On a market about a specific player's specific transaction, the price can rise purely because the rumor got louder, and nothing in the football world changed.
+
+Compare that with the thing this video does not weigh at all: Jeremy Fowler, who actually works sources, put Jerry Jeudy's trade chances at twenty percent and said the quiet part out loud about price, "I'm not sure, say, a fourth-round pick would move anyone in Cleveland." That is a probability from a person with phone numbers. It is worth more than a market price, and it is lower.
+
+So the honest sentence is: forty-five percent is what a group of anonymous traders thought on a given day, and it is one input. It is not a report, it is not money changing hands in Berea, and it is certainly not a negotiation.
+
+So let us build an honest number.
+
+If we are going to criticise a probability, we owe you one of our own. Here is ours, with the reasoning exposed so you can disagree with the steps rather than the conclusion.
+
+Start with the named-reporter record. Mary Kay Cabot, October twenty-seventh and twenty-eighth: the Browns are not shopping any of their quarterbacks and have no plans to trade Sanders or Gabriel before November tenth, "unless someone makes them an offer they can't refuse." Jonathan Jones of The Athletic, October seventeenth: "the Browns dealing Sanders by the deadline would be a stunner." Jeremy Fowler: Cleveland would welcome a deal at the right price. Those are not in conflict. They describe a team that will answer the phone and will not dial out.
+
+Add the base rate. Seven trades have closed in this league since late September with public terms. Not one of them involved a team in first place in its division selling a contributing player. Sellers sell. Cleveland is five and two.
+
+Add the mechanical fact from Friday. Grossi reported Gabriel inactive and Sanders as Q B two. A club that trades its active backup quarterback nine days before the deadline has to dress a quarterback who has not held that job all season, in a playoff race, with a starter who has a significant injury history. That is a real cost, and it is a cost that rises every week Cleveland keeps winning.
+
+Add the price problem. Even the Dolphins-side analysis we read floats a twenty twenty-seven sixth-round pick and labels it explicitly as not reported and not a valuation. The video says a fifth. Cabot's standard is "an offer they can't refuse." A sixth is not that. A fifth is not that. Nobody has named a number that is.
+
+Our estimate: well under forty-five percent. We would put it in the ten-to-fifteen percent range, deliberately below Fowler's twenty percent for Jeudy, because Jeudy is a veteran on an expensive contract whose targets have gone to two rookies, while Sanders is a cheap, controllable quarterback whose own general manager is reported to be fond of him and whose head coach named him the backup on Friday.
+
+What would move our number up, fast: a named reporter describing an actual conversation; Cleveland losing two of its next three; or a quarterback injury somewhere that turns a sixth-round market into a second-round market. Any one of those and we revise publicly.
+
+And the price that would actually move him.
+
+The probability question and the price question are the same question, and this market has already answered it in public.
+
+Seven trades have closed in this league since late September with published terms. One of them is a near-perfect comparable, and nobody in this conversation has mentioned it.
+
+J.J. McCarthy, quarterback, Vikings to Giants, September twenty-eighth. Minnesota received one twenty twenty-seven fifth-round pick. McCarthy was the tenth overall selection of the twenty twenty-four draft, on a first-round rookie contract, sitting third on a depth chart. A former top-ten quarterback pick, with control, moved for a single Day Three pick.
+
+That is the market rate for a young quarterback who is not playing. One fifth.
+
+Now stack the rest of the board against it. Marvin Harrison Junior brought a twenty twenty-seven second and a sixth. Joey Porter Junior brought a sixth and a twenty twenty-eight second. DeForest Buckner, a three-time Pro Bowler, brought a single twenty twenty-seven fourth. And at the top, Jeffery Simmons brought Tennessee two first-round picks and a fourth, because a buyer got four more contract years, not because of reputation.
+
+So here is the arithmetic that sets our probability. Shedeur Sanders is a fifth-round pick in year two who has not played. The comparable sale says a fifth. The Dolphins-side analysis we read floats a sixth. Cabot's threshold is "an offer they can't refuse."
+
+A fifth is not an offer anyone cannot refuse. Neither is a sixth. For Cleveland to say yes, somebody has to pay roughly Buckner money or better, a fourth at minimum, realistically a third, for a quarterback who has thrown no meaningful passes this season, and do it while Cleveland is five and two and dressing him as its only experienced backup.
+
+That gap between the market price and the asking price is the whole reason our number is ten to fifteen percent rather than forty-five. It is not optimism about Cleveland's intentions. It is arithmetic, the kind we would rather show you at Ktl Report than hide behind a percentage somebody else generated.
+
+Miami's case, audited.
+
+The underlying argument for Miami is the strongest part of this video, and it is almost entirely true. It just needs its numbers fixed.
+
+Correct and important: Miami released Tua Tagovailoa, resulting in a reported ninety-nine-million-dollar dead cap hit, and signed Malik Willis to a three-year deal worth sixty-seven and a half million dollars to replace him. That is a franchise that has blown up its quarterback position and committed real money to an unproven answer. A cheap young passer to evaluate alongside him is a sane idea. The video's logic here is sound.
+
+Wrong: the radio clip says Miami "paid him forty-four million dollars." The deal is three years, sixty-seven and a half. Forty-four may be the guarantee; we could not confirm that, so do not say it as the contract value.
+
+Wrong, and for the third time in a week: "the winless Dolphins." Miami is not winless. They beat the New York Jets twenty-eight to twenty-five on the road in Week seven, and Malik Willis, the quarterback the segment says must be replaced, is the one who sparked it. We have flagged this in two previous pieces. If you read it on camera again, your comments will do it for you.
+
+Unverified: Willis "completing just fifty percent of his throws for a seventy-four quarterback rating." An earlier video in this same series cited fifty-seven percent and a seventy-four point one rating. Two of your own scripts disagree; pick one and source it.
+
+Correct: De'Von Achane is out for the season. That is real and it matters.
+
+Philadelphia's case, audited.
+
+And here the video reaches for the same clip for the third time this week.
+
+The audio it plays, "I'm supporting him from where I am and wishing him nothing but the best with his opportunities", is Jalen Hurts, speaking on Wednesday, August thirteenth, twenty twenty-five, after an Eagles practice, about a conversation he had with Sanders following a joint practice. It is fourteen months old. It is not about a trade, a deadline, Miami, or his own injury.
+
+The Schefter claim, stated accurately: the video says "Schefter did not say the name Shedeur Sanders," which is honest. What Schefter actually reported, on October fourteenth, is that Sanders hired agent Adie von Gontard of Young Money APAA Sports, his first agent after representing himself. That is a real report about representation, not about a trade.
+
+The head coach quote we could not find. The video says the Eagles' head coach "talked about the need for a fresh beginning" and said "this team needs someone to bring the energy." We could not source that quote to Nick Sirianni or anyone else in Philadelphia. We are not carrying it.
+
+And the context the video omits: Philadelphia is two and five, having lost five straight including thirty-eight to twenty-one to Dallas on Monday Night Football on October twenty-sixth, their first five-game skid since twenty sixteen. A team in that position at the deadline is far likelier to be selling than buying. Its own local deadline coverage lists sixteen Eagles as trade candidates.
+
+So "the Eagles have not responded" is not deafening silence from the frontrunner. It is a two-and-five team with bigger problems not responding to a rumor nobody reported.
+
+The vlog, and why we are not using it.
+
+The video builds a section on a house-hunting trip: Shilo Sanders, the correct spelling, not "Shiloh", filmed a vlog in Fort Lauderdale, a short drive from the Dolphins' facility, in which he says to his brother, "This could be your home. This could be your life, bro."
+
+We are not carrying this, for three reasons, and they are not squeamishness.
+
+One: it is not evidence. A brother saying a nice thing about a nice city in a family vlog is compatible with a trade, with no trade, with buying an off-season house, with filming content, and with nothing at all. It cannot distinguish between those outcomes, which is the definition of not being evidence.
+
+Two: it is where private people live. We will report a man's contract, his snaps and his depth-chart position all day. Where his family looks at houses is not a transaction signal, and treating it as one invites an audience to go looking.
+
+Three: the video says the quiet part itself, "you can take that as a joke between brothers. Maybe it was just a casual line." Yes. Then it spends two minutes arguing it is "very hard to call that a coincidence." Both halves cannot be the segment.
+
+What the named reporters actually say, dated.
+
+Five names, five dates, one direction.
+
+Mary Kay Cabot, cleveland.com, October twenty-seventh and twenty-eighth: not shopping any quarterback; no plans before November tenth absent an offer they cannot refuse; Cleveland "always preferred to keep all four quarterbacks on the roster, and found a way to do it."
+Tony Grossi, cleveland.com, October thirtieth: Gabriel inactive against Pittsburgh; Sanders is Q B two.
+Jonathan Jones, The Athletic, October seventeenth: a Sanders trade by the deadline "would be a stunner."
+Jeremy Fowler, ESPN: Cleveland would welcome a deal at the right price; Jeudy at twenty percent; a fourth-rounder moves nobody.
+Adam Schefter, October fourteenth: Sanders hired Adie von Gontard as his agent.
+
+Not one of them describes a conversation with Miami.
+
+Where the video is fair.
+
+Credit where it is earned, and this script earns some.
+
+It says: "Now, I always want you to hear both sides, so let me be fair. There are also reports that a Shedeur Sanders trade is not guaranteed and some insiders have cautioned that the Browns have not exactly been in a hurry to sell." That is accurate and it is the correct instinct.
+
+It also correctly notes that Schefter never said Sanders' name, and it correctly identifies Howie Roseman as a deadline operator who will buy or sell depending on the opportunity, including the clip where the analyst says Philadelphia are "buyers and sellers just depending on the opportunity." Keeping the "and sellers" half is more honest than most coverage managed this week.
+
+The problem is not the thinking. It is that the fair paragraph arrives nine minutes after the thumbnail already decided.
+
+The names and numbers to fix.
+
+"Pro Bowl quarterback Shedeur Sanders." Remove it. He has never been to one.
+Shedeur Sanders, the transcript spells it "Shador," "Shadur" and "Shedder." Shilo Sanders, not "Shiloh." Jalen Hurts, not "Jaylen Herz." Adam Schefter, not "Shfter" or "Sher." Howie Roseman, not "How Roseman." Tua Tagovailoa, not "Tua Tongo Vioa" or "Tango Valoa." De'Von Achane, not "Devin Achain." Quinn Ewers, not "Quinn Euers." Polymarket, not "Poly Market." "Winless", not "windless", and Miami is not winless anyway.
+The Willis contract: three years, sixty-seven and a half million. Not forty-four.
+"They are negotiating." Delete. Nobody reported a negotiation.
+
+What we could not verify.
+
+The forty-five percent figure at any given moment, prediction-market prices move hourly, and the number traces to an X account's citation rather than to the market page at a stated time.
+The Eagles head coach's "bring the energy" quote.
+The Dolphins head coach "spoke openly about signing a quarterback" claim.
+Willis' completion percentage and passer rating, where the user's own two scripts disagree.
+Whether forty-four million is Willis' guarantee.
+The result of today's game in Pittsburgh, which is not in hand as we publish.
+
+What we are not carrying.
+
+We are not carrying "Pro Bowl quarterback."
+
+We are not carrying "they are negotiating," or "Miami is ahead in the negotiations." A prediction-market percentage relayed by an aggregator account is not a negotiation.
+
+We are not carrying the Fort Lauderdale vlog as trade evidence.
+
+We are not carrying the August twenty twenty-five Hurts audio as current comment. Third time this week we have said it: if you play that clip, say on camera when it was recorded.
+
+And we are not building anything on Jalen Hurts' illness. He is out for the season with blood clots, the statements describe a good prognosis, and we wish him a full recovery. That is the whole of our coverage of it.
+
+Four titles you can actually use.
+
+One. "WHERE THE forty-five percent CAME FROM, AND WHY IT ISN'T A REPORT"
+Two. "GABRIEL IS INACTIVE, SHEDEUR IS Q B two: MONKEN'S ACTUAL DECISION BEFORE PITTSBURGH"
+Three. "MIAMI'S REAL CASE: A ninety-nine million dollars DEAD CAP HIT AND A sixty-seven and a half million dollars BET ON MALIK WILLIS"
+Four. "CABOT, JONES, FOWLER, GROSSI: FOUR REPORTERS, FOUR DATES, ONE ANSWER"
+
+Your turn.
+
+We put the odds at ten to fifteen percent and showed every step. Tell us which step is wrong.
+
+Is it the base rate, do first-place teams sell contributors more often than we think? Is it the price, would a second-round pick actually be on the table from a desperate buyer? Or is it the mechanical point about dressing a backup who has not held the job?
+
+And the one that matters most to the Dog Pound: if Cleveland wins in Pittsburgh today, does your own number go up or down? Ours goes down. Say why yours differs.
+
+The bottom line.
+
+Forty-five percent sounds like information. Traced back, it is an X account citing a betting market, written up by a site that said it had not verified it, and then converted into "two front offices are negotiating" by a video that admits nine minutes later that nothing is guaranteed.
+
+Underneath that, there is a real story, and Miami's version of it is genuinely good: a ninety-nine-million-dollar dead cap hit to move on from Tua Tagovailoa, a three-year sixty-seven-and-a-half-million bet on Malik Willis, De'Von Achane out for the year, and a reasonable interest in evaluating a cheap twenty-four-year-old quarterback. None of that required inflating him to a Pro Bowler or following his brother's house hunt.
+
+And on the Cleveland side the record is unanimous and dated: not shopping anybody, a trade would be a stunner, Gabriel inactive, Sanders Q B two, nine days left. If that changes, it will change with a name and a timestamp attached, and here at Ktl Report, that is the only kind of forty-five percent we will ever put in a thumbnail.
+
+KTL REPORT, where the pulse of the Browns beats.
