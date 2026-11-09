@@ -1,0 +1,256 @@
+The decision tree. Monken had three branches on the last play, he told you which one he took and why, and we are going to price all three, and then grade our own four criteria.
+
+First, the title. The score is backwards, and the decision was not shocking.
+
+The title is "Todd Monken Shocking Decision After New Orleans Saints twenty-two to twenty-three Loss!"
+
+Two things before anything else.
+
+The score is written backwards. Cleveland lost. Write it from the Browns' side as twenty-two to twenty-three, and better still write the thing that actually happened: Cleveland lost in overtime by one point, on a two-point conversion attempt that did not work.
+
+And the decision was not shocking. It was explained, in full, at the podium, within half an hour of the final whistle, in some of the clearest language a head coach has used all season. A shocking decision is one nobody can account for. This one came with its own reasoning attached, unprompted, before anybody could accuse him of hiding from it.
+
+So we are not going to call it shocking. We are going to do something more useful. Monken described a decision tree out loud. We are going to draw it, price every branch, and tell you whether he took the right one, and then we are going to grade our own homework from last week, because we printed four criteria before this game and we owe you the marks.
+
+Here at Ktl Report the rule is simple: if you put a standard in writing before kickoff, you report against it afterwards whether you look good or not.
+
+The tree, as he described it.
+
+Here is the full quote, because almost nobody is going to play it in full and it is the whole article:
+
+Q: "Going for two at the end, is that a decision you make before you get there?"
+>
+MONKEN: "Well, you make that decision as the clock winds down a little bit, because you're at that point to where they still have their two timeouts. So if you kick the extra point, the nature of the way the overtime rules are with ten minutes is that, okay, they're going to be in two-minute with two timeouts and need a field goal to win it. So you're not going to get the ball back, probably. So you're really saying tie or lose, is what you're saying there if you kick the extra. That's my opinion. You're saying tie or lose. And in that moment I said, 'Nah, that's not me.' So we're going to go for the win right here, and it's going to be win or lose."
+
+Read that again and notice what it is. It is not a gut call. It is a stated comparison between two distributions of outcomes, built on three specific facts he identified in real time: the opponent had two timeouts, regulation overtime is ten minutes, and a field goal would win it for them.
+
+That is the kind of answer you can actually evaluate. So let us evaluate it.
+
+Branch one. Kick the extra point.
+
+What it buys you immediately: a tie, and the ball goes back to New Orleans.
+
+What happens next, by Monken's own reading: the Saints take over in a two-minute situation, holding two timeouts, needing only a field goal to win. Cleveland, in all likelihood, does not touch the ball again.
+
+So the realistic outcome set from this branch is: tie, or lose. A win requires New Orleans to fail to reach field-goal range, Cleveland to then get the ball back with enough time, and Cleveland to score, in an offense that had been struggling all afternoon.
+
+The honest price of Branch One: the near-certainty of not losing on that play, purchased by handing the other team the only live chance to win.
+
+And the thing people under-weight: a tie is not half a win in the standings, it is a strange, specific object. It helps a tiebreaker, it costs a game of separation, and in a conference race it is mostly a game that did not happen.
+
+Branch two. Go for two.
+
+What it buys you immediately: a binary. Convert and you win the game on that play. Fail and you lose it on that play.
+
+What happens next: nothing. That is the entire point of the branch, and it is also its appeal. No two-minute defense, no field-goal attempt by somebody else, no praying for a missed kick. The outcome is decided by your own eleven men executing one call.
+
+The honest price of Branch Two: you convert the chance of a tie into a chance of a win, and you pay for it with the chance of a loss. You also take the decision out of the opponent's hands entirely.
+
+Monken's sentence for this is better than any analytics summary of it: "it's going to be win or lose."
+
+Branch three. The one nobody asked about.
+
+There was a third branch earlier in the same game, and it matters because it shows this was a pattern and not a panic.
+
+Earlier, on the goal line, Cleveland went for it rather than taking points, and did not get in. Monken was asked about it and did not flinch:
+
+"We didn't get in when we had an opportunity to go up by a touchdown, and I feel good about going for it at that moment."
+
+So the man who went for two in overtime had already gone for it on the goal line in the first half, and said afterwards he would do it again. Whatever you think of either call, they are the same call made by the same person with the same reasoning. That is consistency, and consistency is the thing you are entitled to demand from a coach.
+
+So was he right? Our verdict, with the reasoning shown.
+
+Yes, on the logic. And the logic is the only part a coach controls.
+
+Here is why, in three steps.
+
+One. He identified the right variables. Two timeouts, ten-minute overtime, field goal wins it for them. Those three facts together are what collapse Branch One into "tie or lose," and he named all three at the podium thirty minutes after the game. He was not rationalising backwards; he was describing what he saw at the time.
+
+Two. The comparison he made is the correct comparison. The question is never "is a two-point conversion likely?" in isolation. It is "is this conversion more likely than the sequence of events I need on the other branch?", and the other branch required stopping a team twice, including once with two timeouts and only a field goal needed. When you phrase it that way, going for two stops being aggressive and starts being arithmetic.
+
+Three. He accepted the accountability that comes with it, immediately. Asked what the play was supposed to be, he gave the only answer a coach should: "I'm not going to get into specifics what it was. We didn't execute it." No receiver named. No lineman named. No official blamed. We.
+
+And now the honest counterweight, because we are not going to pretend this is free.
+
+The strongest argument against Branch Two is not about the percentages. It is that the offense had been bad all day, by Monken's own description, "offense struggling" in the first half, and you might reasonably decline to put a whole game on one snap from a unit that had not executed cleanly for three quarters. A tie in a conference race is a real asset for a five-and-three team. If you believe your defense more than your offense, Branch One is defensible.
+
+But that argument has to answer his question, and it does not: if you kick, you are asking that same struggling offense to get the ball back and score anyway, only now you are asking the defense to stop a two-minute drive first. You have not removed the risk. You have moved it, and added a step.
+
+Final mark on the decision: correct call, lost game. Those are two different sentences, and here at Ktl Report we are not going to collapse them into one just because the scoreboard makes it easy.
+
+Now our own homework. Four criteria, graded.
+
+On Thursday we printed four things we would call success on Sunday, specifically so that nobody, including us, could move the standard afterwards. Here they are, marked.
+
+Criterion one. One turnover or fewer.
+
+Status: we are not claiming this one yet. Nothing in this press conference establishes Cleveland's turnover count, and we are not going to grade ourselves on a number we have not read. What we can say is that the two things Monken volunteered about late-game execution were a holding call that wiped out a third-down conversion and a two-point play that "we didn't execute", neither of which is a giveaway.
+
+Mark: INCOMPLETE. Check the box score before you record this section.
+
+Criterion two. Any first quarter points at all.
+
+Status: FAILED, and worse than failed.
+
+This was the whole point of the criterion and it is the one thing the coach was openly angry about:
+
+"I'm frustrated at the beginning of the game. I'm frustrated that in the first quarter that we had six penalties, special teams, offense, defense, we're jumping offsides. We still held them to a field goal even once. We jump twice on defense. But it's not sustainable for us to continue down that road."
+
+Six penalties in one quarter. Asked whether the slow start looked like the first eight games, he said: "No, just penalties. Penalties were a part of it."
+
+So the first-quarter problem did not improve, it changed shape. In the first eight games it was the worst scoring differential in the NFL. On Sunday it was self-inflicted: offsides, flags, and a quarter given away before anybody settled.
+
+Mark: FAILED. And Monken's own closing summary is the honest version of it: "we've certainly got to figure out how to start faster, 'cause we certainly can finish."
+
+Criterion three. Four sacks or fewer.
+
+Status: not established here. The press conference does not give a sack number. What it does give is a texture that cuts both ways: Monken described Sanders "made some plays with his legs to extend plays and get us first downs," which is usually how a quarterback keeps a sack count down behind a line that has allowed thirty-three in eight games.
+
+Mark: INCOMPLETE, leaning pass. Verify.
+
+Criterion four. One real connection with a rookie receiver.
+
+Status: PASSED, on the available evidence, and from an unexpected direction.
+
+Monken was asked about a rookie who went down, got up and came back to make what he called possibly the play to win the game. He was emphatic enough that he had to confirm it over the headset three times:
+
+"I had to ask like three times on the headset. They're saying he's back. Are we talking about the guy who was on the ground for a minute?... If you're playing in the NFL, you're tough. You do this and you've done this your whole life and you play football in the NFL, you're tough. I don't care what anybody says. And he is one of those guys. He's a real one."
+
+A rookie receiver left with what Monken understood to be an ankle, returned, and made a play significant enough that the head coach led his toughness answer with it. That is a real connection under maximum pressure, which is a stronger pass than the criterion asked for.
+
+Mark: PASSED.
+
+And the criterion we did not print, which Monken printed for us.
+
+He also handed us a number that functions as a fifth criterion, and it is the most important sentence in the press conference for anybody trying to judge this season:
+
+"This is the NFL, man. You're going to play a bunch of one-score games, and where you finish on the ledger is going to determine your season. Right now we're five and two in one-score games."
+
+Five and two in one-score games. That is the whole identity of this team, stated plainly: a side that cannot start and can finish, living in the margin. Sunday was the third loss in that column, and it was by one point, on a play of their own choosing.
+
+Our overall mark: one pass, one clear fail, two incomplete pending the box score. That is an honest Monday, and it is less flattering than the version where we only grade the things that went well.
+
+What he actually said about Shedeur Sanders.
+
+This is where most channels will spend their whole video, so we will be precise about it and keep it in proportion.
+
+The headline number nobody is quoting. Monken put the start in context with a figure he had clearly worked out in advance:
+
+"For a guy that really hasn't taken snaps with the ones in what, ten weeks, when we announced it with two weeks left and you're eight weeks into the season, so you're basically two and a half months where you're basically running cards, to come in there and to continue to battle. Really, really proud of him."
+
+Ten weeks without first-team snaps. Two and a half months "running cards", which is the scout-team job of holding up a play card and imitating somebody else's offense. That is the real baseline for Sunday, and it is harsher than "he had a good week of practice."
+
+What he credited specifically: "He gave us a chance at the end. He really did. Made some plays. Made some plays with his legs to extend plays and get us first downs... He got us a third down conversion. Unfortunately, we got the holding call."
+
+And the maturity answer, including the part where he corrected himself mid-sentence, which is worth keeping because it is the opposite of a prepared line:
+
+"He's really matured. And I don't mean that in a negative way, that he was immature, that's unfair, that's not what I mean. What I mean is in terms of his work ethic, in terms of his diligence, in terms of what he will say to the coaching staff and ask the questions, his feedback. Those are all the right steps moving forward as any young player, especially at quarterback."
+
+A head coach stopping himself to protect a player from his own phrasing is a small thing that tells you a lot.
+
+And the question he refused, which he was right to refuse.
+
+The exchange everybody will clip:
+
+Q: "Did Shedeur Sanders make a case for himself to start?"
+MONKEN: "I'm not even, I mean, how long has it been? Thirty minutes since the game ended. I'm not getting into the quarterback. If we want to talk about Shedeur, we can talk about Shedeur."
+
+That is not a dodge and we are not going to sell it as one. A reporter asked a head coach to open a quarterback competition thirty minutes after an overtime loss, before he had watched a single frame of tape. He said no, and then said plainly that he would discuss the player all day if they wanted.
+
+He also pre-answered the question honestly earlier in the same session, which is the part that gets lost: asked whether Sanders had given him confidence he did not previously have, he said "that's a great question," credited the improvement he had seen over six months, and then put the brake on himself:
+
+"But ultimately, you've got to go play, right? You got to go on the field and you got to execute, and guys got to play well around him. It's not a one-man deal. We got to coach. We got to scheme. So, till I really see the tape."
+
+"Till I really see the tape" is the correct answer to every question asked thirty minutes after a football game, and anybody presenting it as evasion is selling you something.
+
+The schedule fact that reframes the whole season.
+
+Buried near the end, and nobody is going to lead with it, is the most useful piece of context in the entire press conference:
+
+"We've played six of the first nine road games. And if Peter was right here, only two other teams have done it. I think that'll harden us. I really do. I mean, who else plays six of their first nine games in a row on the road? I think our guys battled their rear ends off for our young team. And I look forward to coming back home. And hell, we don't leave till Christmas. We're there four games and a bye week."
+
+Six of the first nine away from home, and then four home games and a bye before the next trip.
+
+Hold that next to the other numbers. Seven of eleven offensive starters in their first or second NFL season. Five and two in one-score games. The worst first quarter in football for eight weeks, followed by a game lost on a one-point margin after six penalties in the opening quarter.
+
+That is a young team that has been on an aeroplane for two months and is now about to sit still for a month. It is the single strongest argument for patience anybody has made this season, and it came from the coach, unprompted, after a loss.
+
+And the injury, handled the way injuries should be handled.
+
+Asked to specify what was wrong with the rookie who came back in, Monken gave the only answer available to him and showed his work:
+
+"My understanding is an ankle. That's my understanding. But you're in the game, someone's telling you stuff in your ear and you're trying to figure out what the next call is and all kinds of stuff's rolling around. You're like, 'Okay, is he in or out?'... And that's not trying to be disrespectful, that it doesn't matter, but it's really, at that moment, if they're in, they're in; they're out, they're out."
+
+And then the caution that matters more than the diagnosis:
+
+"We'll see how he is, because that adrenaline rush, where it's at come tomorrow and the next day."
+
+A player who returns on adrenaline is not a player who is fine. Monken said so himself. We are reporting "my understanding is an ankle" as exactly that, an understanding, from a man who was calling plays, and nothing more, and we will not be speculating about a timeline.
+
+The names and numbers to fix.
+
+This transcript mangles almost every proper noun, several of them more than once.
+
+"Shadore", "Shador" and "Shidor" are all Shedeur Sanders, three spellings in eight minutes.
+"Austin Bar" is Austin Barber, Cleveland's starting right guard.
+"Carol Fannon" is Harold Fannin Junior, the tight end, who went into this week limited with a groin injury and who the transcript credits with a thirty-nine-yard run after the catch. If that number is right, it is a headline on its own.
+"one-sore games" and "one scorecore games" are one-score games. Monken says the phrase three times and the number attached to it, five and two, is the most quotable statistic of the night.
+"our polar" is our puller, the guard pulling on the goal-line run.
+"back block with our center" is correct terminology and worth leaving as is.
+"four-minute" is correct, it is the offense you run to close a game out.
+"twenty-two to twenty-three" should be written from Cleveland's side as twenty-two to twenty-three and said as twenty-two to twenty-three, in overtime.
+
+What we could not verify.
+
+Shedeur Sanders' full stat line, Cleveland's turnover count and the sacks allowed. Two of our four criteria depend on these. Read the box score before you record those two sections.
+Which rookie receiver suffered the ankle injury. The reporter's question and Monken's answer do not line up cleanly in this transcript, a name is asked about and Monken appears to reference a different one. Both of Cleveland's rookie receivers are plausible. Confirm the name before you say it on camera; we have deliberately described the player without naming him.
+The thirty-nine-yard play credited to Harold Fannin Junior, including whether it was a catch and run or a carry.
+"Peter", the person Monken refers to for the schedule statistic, presumably a team staffer or a writer in the room. We are reporting the claim as Monken's.
+The claim that only two other teams have played six of their first nine on the road. Monken says it with a hedge and so do we.
+The specifics of the two-point play. He declined, and that is his right.
+Whether the holding call that wiped out the third-down conversion was correct. We have not seen the tape and will not be refereeing from a transcript.
+
+What we are not carrying.
+
+We are not carrying "shocking decision." He explained it, in full, inside thirty minutes, with the three facts he based it on. You can disagree with it. You cannot call it unexplained.
+
+We are not carrying "Monken cost them the game." The call was defensible on the logic he laid out and the execution failed. Correct call, lost game, both sentences, every time.
+
+We are not carrying a quarterback controversy. He refused the question thirty minutes after an overtime loss and gave the right reason: he had not watched the tape.
+
+We are not carrying an injury timeline for a player whose coach said the adrenaline had not worn off yet.
+
+We are not carrying blame for a named player on the two-point play. Monken said "we didn't execute it" and declined to go further, and we are going to extend him exactly the same courtesy.
+
+And we are not quietly dropping our own four criteria now that two of them need a box score. They are graded above, including the one we failed.
+
+Four titles you can actually use.
+
+One. "'YOU'RE SAYING TIE OR LOSE', MONKEN EXPLAINS THE TWO POINT CALL IN FULL"
+Two. "SIX PENALTIES IN THE FIRST QUARTER. THAT'S THE GAME."
+Three. "TEN WEEKS WITHOUT FIRST-TEAM SNAPS, THE REAL CONTEXT FOR SHEDEUR'S START"
+Four. "FIVE AND TWO IN ONE-SCORE GAMES AND SIX OF NINE ON THE ROAD. NOW THEY'RE HOME."
+
+Your turn.
+
+Not "was it the right call", that is too easy to answer with the result in front of you. Try this instead, and answer it as if you did not know what happened.
+
+It is overtime. You can have a coin flip you win fifty times out of a hundred, or you can hand the ball to the other team and hope they fail twice. Which do you take?
+
+And then the real question, the one that separates an opinion from a principle: would your answer change if the offense had been playing badly all afternoon? Because that is the actual argument against Monken's call, and it is a serious one. Make it properly in the comments if you believe it.
+
+And one for the ledger. Five and two in one-score games, six of the first nine on the road, seven of eleven offensive starters in year one or two, and four home games and a bye coming. Tell us the record you expect over the next eight. Put a number on it, because a number you post today is worth ten takes you post in January.
+
+The bottom line.
+
+Cleveland lost by a point in overtime because a two-point conversion did not work, and the head coach walked to a podium half an hour later and explained exactly why he had called it. Two timeouts for the other team. A ten-minute overtime. A field goal wins it for them. Add those three facts up and kicking the extra point is not the safe choice, it is "tie or lose", his words, so he took the branch where "it's going to be win or lose" and his own eleven men decide it. Then, asked what the play was, he said five words that most coaches cannot say: "We didn't execute it." No name, no excuse, no official.
+
+Correct call. Lost game. Both true, and a channel that can only hold one of them in its head is not telling you anything.
+
+The rest of the press conference is the season in miniature. Six penalties in the first quarter, a new way to lose the opening fifteen minutes for a team that already had the worst first quarter in football. A quarterback making his first start ten weeks after his last first-team snap, two and a half months of running scout-team cards, who "gave us a chance at the end" and got a third down back before a holding call took it away. A rookie receiver on the floor for a minute with what Monken understands to be an ankle, who came back and made a play his coach had to confirm three times over the headset, and about whom Monken said only: "If you're playing in the NFL, you're tough. He's a real one." And a schedule fact nobody will lead with, six of the first nine on the road, and now four home games and a bye before they leave again.
+
+Our own grading, because we printed it in advance and the rule does not bend: first-quarter points, failed, badly. A rookie connection, passed, under maximum pressure. Turnovers and sacks, incomplete until the box score, and we are not grading ourselves on numbers we have not read.
+
+Five and two in one-score games. That is who this team is, by its coach's own accounting: a side that cannot start and will not quit, deciding its season in the margin, one point at a time. Here at Ktl Report we will take a coach who says "till I really see the tape" over one who says whatever the room wants to hear, and on Sunday, for once, the thing that beat Cleveland was a decision made in the open rather than a mistake hidden in one.
+
+KTL REPORT, where the pulse of the Browns beats.
